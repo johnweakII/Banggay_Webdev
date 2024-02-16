@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Protest+Revolution:400');
+@import url('https://fonts.googleapis.com/css?family=Courgette:400');
+@import url('https://fonts.googleapis.com/css?family=Honk:400'); 
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #79bebe;
+    background: linear-gradient(to right, #777cac, #805252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.header h1{
+    text-align: center;
+    font-size: 100px;
+    color: green;
+    font-family: 'honk', sans-serif;
+    letter-spacing: 3px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.image-items{
+    background-color: #eee;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(219, 217, 213, 0.473));
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+}
+
+.image-items img {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    max-width: 90%;
+    margin-top: 15px;
+}
+
+.image-item-description{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.image-item-description p{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.image-item-description p{
+    font-family: 'Dancing Script', monospace;
+    letter-spacing: 0px;
+    font-size: x-large;
+}
+
+.header1 h1{
+    font-family: 'honk', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+}
+
+.header1 li{
+    font-family: 'honk', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(15, 29, 15);
+    letter-spacing: 3px;
+}
+
+.home img {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    max-width: 90%;
+    margin-top: 0px;
+}

@@ -82,7 +82,7 @@ function clickTile() {
     if (minesLocation.includes(tile.id)) {
         gameOver = true;
         revealMines();
-        document.getElementById("gameover").innerText = "NOOB!";
+        document.getElementById("gameover").innerText = "Nice Try!";
         return;
     }
 

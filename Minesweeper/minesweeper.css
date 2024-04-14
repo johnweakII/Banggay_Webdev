@@ -73,10 +73,10 @@ body {
 }
 
 #board {
-    inline-size: 250px;
-    block-size: 250px;
-    border: 5px solid rgb(255, 56, 56);
-    background-color: rgba(238, 229, 97, 0.658) ;
+    inline-size: 260px;
+    block-size: 260px;
+    border: 10px groove  rgb(0, 0, 0);
+    background-color: rgba(238, 229, 97, 0) ;
     border-radius: 10px;
 
     margin: 0 auto;
@@ -85,9 +85,10 @@ body {
 }
 
 #board div {
-    inline-size: 48px;
-    block-size: 48px;
+    inline-size: 50px;
+    block-size: 50px;
     border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
 
     
     font-size: 30px;
@@ -123,4 +124,11 @@ body {
     background-color: lightgray;
     border:solid black;
     border-radius: 100px;
+    cursor:pointer;
+}
+
+.boardpos h1{
+    color: red;
+    font-family: cursive;
+    font-style: oblique;
 }

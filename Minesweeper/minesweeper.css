@@ -75,8 +75,8 @@ body {
 #board {
     inline-size: 260px;
     block-size: 260px;
-    border: 10px groove  rgb(0, 0, 0);
-    background-color: rgba(238, 229, 97, 0) ;
+    border: 5px solid  rgb(0, 0, 0);
+    background-color: rgb(238, 229, 97) ;
     border-radius: 10px;
 
     margin: 0 auto;

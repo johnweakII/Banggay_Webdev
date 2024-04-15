@@ -3,17 +3,33 @@ let rows = 5;
 let columns = 5;
 
 let minesLocation = []; 
-let minesCount = 4;
+let minesCount = "";
 
 let tilesClicked = 0; 
 let flagEnabled = false;
 
 let gameOver = false;
+let stopper=0;
 
 
 window.onload = function() {
-    startGame();
+    callback();
 
+}
+
+function btn()
+{
+    if(stopper==0){
+    minesCount=document.getElementById("value").value;
+startGame();}
+else{return;}
+
+}
+
+function callback()
+{
+    const submit=document.getElementById("submitbtn");
+    submit.addEventListener("click",btn);
 }
 
 function startGame() {
@@ -31,6 +47,11 @@ function startGame() {
             row.push(tile);
         }
         board.push(row);
+    }
+
+    if(minesCount==document.getElementById("value").value)
+    {
+        stopper=1;
     }
 
 }

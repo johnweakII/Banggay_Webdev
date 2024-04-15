@@ -5,6 +5,7 @@ body {
     font-weight: bold;
     text-align: center;
     background: linear-gradient(to right, #e2e3e9, #a7a7a7);
+    overflow: hidden;
 }
 
 .header {
@@ -73,8 +74,8 @@ body {
 }
 
 #board {
-    inline-size: 260px;
-    block-size: 260px;
+    inline-size: 500px;
+    block-size: 350px;
     border: 5px solid  rgb(0, 0, 0);
     background-color: rgb(238, 229, 97) ;
     border-radius: 10px;
@@ -85,8 +86,8 @@ body {
 }
 
 #board div {
-    inline-size: 50px;
-    block-size: 50px;
+    inline-size: 48px;
+    block-size: 33px;
     border: 1px solid rgb(0, 0, 0);
     cursor: pointer;
 
@@ -102,20 +103,37 @@ body {
 }
 
 .x1 {
-    color: blue;
+    color: rgb(255, 0, 0);
 }
 
 .x2 {
-    color: green;
+    color: rgb(128, 73, 0);
 }
 
 .x3 {
-    color: red;
+    color: rgb(238, 255, 0);
 }
 
 .x4 {
+    color: rgb(0, 128, 11);
+}
+
+.x5 {
+    color: rgb(0, 128, 107);
+}
+
+.x6 {
     color: navy;
 }
+
+.x7 {
+    color: rgb(77, 0, 128);
+}
+
+.x8 {
+    color: rgb(128, 0, 32);
+}
+
 
 #flag-button {
     inline-size: 100px;
@@ -128,7 +146,9 @@ body {
 }
 
 .boardpos h1{
-    color: red;
-    font-family: cursive;
-    font-style: oblique;
+    color: rgb(0, 0, 0);
+}
+
+input{
+    inline-size: 90px;
 }

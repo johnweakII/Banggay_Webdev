@@ -1,6 +1,6 @@
 let board = [];
-let rows = 5;
-let columns = 5;
+let rows = 10;
+let columns = 10;
 
 let minesLocation = []; 
 let minesCount = "";

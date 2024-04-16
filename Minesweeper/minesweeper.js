@@ -20,8 +20,15 @@ window.onload = function() {
 function btn()
 {
     if(stopper==0){
+        if(document.getElementById("value").value>100 || document.getElementById("value").value<1)
+        {
+            alert("Input must be less to 100 or greater to 0\nPlease Try Again!");
+        }
+    else
+    {
     minesCount=document.getElementById("value").value;
-startGame();}
+    startGame();
+    }}
 else{return;}
 
 }

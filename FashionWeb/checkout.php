@@ -48,14 +48,19 @@
 									<input type="text" placeholder="Zip / Postal Code *" name="pin_code">
 									<select>
 										<option>-- State / Province / Region --</option>
-										<option>Maharashtra</option>
-										<option>Punjab</option>
-										<option>Gujarat</option>
-										<option>Madhya Pradesh</option>
-										<option>Andhra Pradesh</option>
-										<option>Tamil Nadu</option>
-										<option>Rajasthan</option>
-										<option>Jharkhand</option>
+										<option>Region I</option>
+										<option>Region II</option>
+										<option>Region III</option>
+										<option>Region IV</option>
+										<option>Region V</option>
+										<option>Region VI</option>
+										<option>Region VII</option>
+										<option>Region VIII</option>
+										<option>Region IX</option>
+										<option>Region X</option>
+										<option>Region XI</option>
+										<option>Region XII</option>
+										<option>BARMM</option>
 									</select>
 									<input type="text" placeholder="Mobile Phone" name="mobile">
 									<input type="submit" name="submit" value="Confirm Order">
